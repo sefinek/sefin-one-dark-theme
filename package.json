@@ -1,0 +1,27 @@
+{
+  "name": "jetbrains-one-dark-theme",
+  "version": "1.0.0",
+  "description": "JetBrains One Dark Theme",
+  "keywords": [],
+  "homepage": "https://github.com/sefinek/jetbrains-one-dark-theme",
+  "bugs": {
+    "url": "https://github.com/sefinek/jetbrains-one-dark-themeissues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek/jetbrains-one-dark-theme.git"
+  },
+  "license": "ISC",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "m": "ncu -u && npm install && npm update",
+    "pull": "git pull origin main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "globals": "^17.7.0"
+  }
+}
