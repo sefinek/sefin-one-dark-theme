@@ -193,7 +193,8 @@
       "Advertiser.background": "backgroundColor",
       "Advertiser.borderColor": "backgroundColor",
       "Advertiser.foreground": "#868a91",
-      "borderColor": "panelColor",
+      "paintBorder": true,
+      "borderColor": "#3d424b",
       "Toolbar.background": "backgroundColor"
     },
     "CompletionPopup": {
@@ -266,7 +267,8 @@
       "SearchField.background": "backgroundColor",
       "separatorColor": "panelColor"
     },
-    "AlertDialog.background": "panelColor",
+    "AlertDialog.background": "#22262e",
+    "AlertDialog.borderColor": "#3d424b",
     "WelcomeScreen": {
       "borderColor": "borderColor",
       "separatorColor": "#2c313a",

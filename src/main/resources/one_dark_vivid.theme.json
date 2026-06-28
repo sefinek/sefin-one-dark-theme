@@ -261,6 +261,9 @@
 
     "Panel.background": "backgroundColor",
 
+    "AlertDialog.background": "#22262e",
+    "AlertDialog.borderColor": "#3d424b",
+
     "ParameterInfo": {
       "background": "#3d424b",
       "foreground": "#bbbbbb",
@@ -302,8 +305,8 @@
 
     "Popup": {
       "background": "#262a33",
-      "paintBorder": false,
-      "borderColor": "#21252b",
+      "paintBorder": true,
+      "borderColor": "#3d424b",
       "Toolbar.borderColor": "#3d424b",
       "Header.activeBackground": "#414855",
       "Header.inactiveBackground": "#2c313a",
