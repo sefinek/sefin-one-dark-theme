@@ -8,7 +8,7 @@ The palette has been slightly darkened and cooled down. The main editor backgrou
 
 The theme is actively maintained and continuously improved. See [CHANGELOG.md](CHANGELOG.md) to learn about recent changes.
 
-![Code example](https://github.com/user-attachments/assets/876ee172-4f88-4f4e-b737-302b463862a5)
+![Code example](https://github.com/user-attachments/assets/0928bbf2-3540-4b77-a2ee-8ad85cde3e55)
 
 ## Installation
 1. Go to [Releases](https://github.com/sefinek/sefin-one-dark-theme/releases) to download the compiled plugin.
