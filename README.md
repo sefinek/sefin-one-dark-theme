@@ -1,6 +1,6 @@
 # ⚛️ Sefin One Dark Theme
-[![JetBrains plugin version](https://img.shields.io/jetbrains/plugin/v/11938-one-dark-theme.svg)](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
-[![JetBrains plugin downloads](https://img.shields.io/jetbrains/plugin/d/11938-one-dark-theme.svg)](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
+[![JetBrains plugin version](https://img.shields.io/jetbrains/plugin/v/32522-sefin-one-dark-theme.svg)](https://plugins.jetbrains.com/plugin/32522-sefin-one-dark-theme)
+[![JetBrains plugin downloads](https://img.shields.io/jetbrains/plugin/d/32522-sefin-one-dark-theme.svg)](https://plugins.jetbrains.com/plugin/32522-sefin-one-dark-theme)
 
 [One Dark](https://github.com/atom/one-dark-syntax) theme for JetBrains IDEs. This is a maintained fork of the original project.
 
