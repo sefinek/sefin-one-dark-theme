@@ -11,7 +11,7 @@
     "url": "git+https://github.com/sefinek/jetbrains-one-dark-theme.git"
   },
   "license": "ISC",
-  "author": "mskelton",
+  "author": "Sefinek",
   "type": "module",
   "scripts": {
     "build": ".\\gradlew.bat buildPlugin",

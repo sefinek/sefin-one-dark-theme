@@ -1,15 +1,30 @@
 <idea-plugin>
-    <id>com.markskelton.one-dark-theme</id>
+    <id>net.sefinek.one-dark-theme</id>
     <name>One Dark Theme</name>
     <category>UI</category>
-    <vendor email="one-dark@mskelton.dev" url="https://github.com/one-dark/jetbrains-one-dark-theme">Mark Skelton</vendor>
+    <vendor email="contact@sefinek.net" url="https://github.com/sefinek/jetbrains-one-dark-theme">Sefinek</vendor>
 
     <idea-version since-build="253.3"/>
 
     <description><![CDATA[
-        <p>One Dark theme for JetBrains.</p>
-        <br>
-        <p>After installing the theme, go to Preferences | Appearance & Behavior | Appearance and select the One Dark theme (or Islands variant) from the list.</p>
+        <p>
+            A polished One Dark theme for JetBrains IDEs, maintained as a modern fork of the original project.
+        </p>
+        <p>
+            The theme preserves the familiar One Dark feel, but uses a slightly darker, cooler palette with fewer yellow tones.
+            It was designed for calm work during long coding sessions and to look especially good on OLED and QD-OLED displays.
+        </p>
+        <p>Available themes:</p>
+        <ul>
+            <li>One Dark</li>
+            <li>One Dark Vivid</li>
+            <li>One Dark Islands</li>
+            <li>One Dark Islands Vivid</li>
+        </ul>
+        <p>
+            After installation, select the theme in <em>Settings | Appearance & Behavior | Appearance</em>.
+            For Islands variants, enable <em>Settings | Advanced Settings | Enable Islands UI for custom themes</em>.
+        </p>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
