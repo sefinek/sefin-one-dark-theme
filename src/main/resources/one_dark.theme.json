@@ -157,10 +157,10 @@
     },
 
     "Editor": {
-      "background": "#252932",
+      "background": "#262a33",
       "foreground": "#abb2bf",
       "SearchField": {
-        "background": "#252932"
+        "background": "#262a33"
       },
       "shortcutForeground": "accentColor",
       "ToolTip": {
@@ -168,7 +168,7 @@
       }
     },
 
-    "EditorPane.inactiveBackground": "#252932",
+    "EditorPane.inactiveBackground": "#262a33",
 
     "EditorTabs": {
       "underlinedTabBackground": "#3d424b"
@@ -215,7 +215,7 @@
     },
 
     "MainToolbar": {
-      "inactiveBackground": "#252932",
+      "inactiveBackground": "#262a33",
       "background": "backgroundColor",
       "Dropdown": {
         "hoverBackground": "#3d424b"
@@ -287,7 +287,7 @@
       },
 
       "SearchField": {
-        "background": "#252932",
+        "background": "#262a33",
         "borderColor": "#1b1d21"
       },
 
@@ -301,7 +301,7 @@
     },
 
     "Popup": {
-      "background": "#252932",
+      "background": "#262a33",
       "paintBorder": false,
       "borderColor": "#21252b",
       "Toolbar.borderColor": "#3d424b",
@@ -335,7 +335,7 @@
       "Header.background": "backgroundColor",
 
       "SearchField":{
-        "background": "#252932",
+        "background": "#262a33",
         "borderColor": "#1b1d21"
       },
 
@@ -370,7 +370,7 @@
     },
 
     "Table": {
-      "background": "#252932",
+      "background": "#262a33",
       "stripeColor": "#2c313a",
       "selectionForeground": "#ffffff",
       "foreground": "#abb2bf",
@@ -388,12 +388,12 @@
     "Tag.background": "#3d424b",
 
     "TextArea": {
-      "background": "#252932",
+      "background": "#262a33",
       "selectionBackground": "#414855"
     },
 
     "TextField": {
-      "background": "#252932",
+      "background": "#262a33",
       "selectionBackground": "#414855"
     },
 
@@ -471,14 +471,14 @@
         "selectionInactiveBackground": "#2c313a"
       },
       "separatorColor": "#2c313a",
-      "SidePanel.background": "#252932",
+      "SidePanel.background": "#262a33",
       "Details.background": "backgroundColor"
     }
   },
 
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "#252932",
+      "Checkbox.Background.Default.Dark": "#262a33",
       "Checkbox.Border.Default.Dark": "#414855",
       "Checkbox.Foreground.Selected.Dark": "#abb2bf",
       "Checkbox.Focus.Wide.Dark": "#568AF2",

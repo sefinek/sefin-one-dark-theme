@@ -26,7 +26,7 @@
     <option name="ERROR_HINT" value="781732"/>
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f"/>
     <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
-    <option name="GUTTER_BACKGROUND" value="252932"/>
+    <option name="GUTTER_BACKGROUND" value="262a33"/>
     <option name="HTML_TAG_TREE_LEVEL0" value="#f44747"/>
     <option name="HTML_TAG_TREE_LEVEL1" value="#e5c07b"/>
     <option name="HTML_TAG_TREE_LEVEL2" value="#98c379"/>
@@ -47,7 +47,7 @@
     <option name="QUESTION_HINT" value="2e4280"/>
     <option name="RECENT_LOCATIONS_SELECTION" value="3d424b"/>
     <option name="RIGHT_MARGIN_COLOR" value="606368"/>
-    <option name="ScrollBar.background" value="252932"/>
+    <option name="ScrollBar.background" value="262a33"/>
     <option name="SELECTED_INDENT_GUIDE" value="606368"/>
     <option name="SELECTED_TEARLINE_COLOR" value="6b6e73"/>
     <option name="SELECTION_BACKGROUND" value="404859"/>
@@ -2144,7 +2144,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="BACKGROUND" value="252932"/>
+        <option name="BACKGROUND" value="262a33"/>
         <option name="FOREGROUND" value="#abb2bf"/>
       </value>
     </option>
@@ -2226,7 +2226,7 @@
     </option>
     <option name="VELOCITY_SCRIPTING_BACKGROUND">
       <value>
-        <option name="BACKGROUND" value="252932" />
+        <option name="BACKGROUND" value="262a33" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
@@ -2273,7 +2273,7 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="BACKGROUND" value="252932"/>
+        <option name="BACKGROUND" value="262a33"/>
         <option name="FOREGROUND" value="#abb2bf"/>
       </value>
     </option>

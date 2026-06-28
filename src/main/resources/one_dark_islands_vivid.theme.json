@@ -7,7 +7,7 @@
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "#202329",
-    "panelColor": "#252932",
+    "panelColor": "#262a33",
     "borderColor": "#333841",
     "infoForeground": "#7e8491",
     "foregroundColor": "#bbbbbb",
@@ -279,7 +279,7 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default": "#252932",
+      "Checkbox.Background.Default": "#262a33",
       "Checkbox.Border.Default": "#414855",
       "Checkbox.Foreground.Selected": "#bbbbbb",
       "Checkbox.Focus.Wide": "#568AF2",
