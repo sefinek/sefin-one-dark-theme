@@ -5,6 +5,8 @@
 - The palette has been slightly darkened and cooled down.
 - The main editor background is darker, and some colors are less yellowish, which looks significantly better especially on OLED and QD-OLED panels.
 - Refined contrast in selected places to better match the main background.
+- Reduced the brightness of inlay hints so they are less distracting while editing.
+- Refined popup and dialog backgrounds, borders, and contrast to better match the main theme background.
 - Cleaned up `pluginIcon.svg` (removed an unused namespace and simplified the structure).
 - Minor project fixes.
 
