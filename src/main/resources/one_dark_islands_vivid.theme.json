@@ -8,7 +8,7 @@
     "accentColor": "#568AF2",
     "backgroundColor": "#202329",
     "panelColor": "#252932",
-    "borderColor": "#444b57",
+    "borderColor": "#333841",
     "infoForeground": "#7e8491",
     "foregroundColor": "#bbbbbb",
     "notificationBackground": "#3d424b",
@@ -26,7 +26,7 @@
       "hoverBackground": "hoverBackground",
       "selectionBackground": "selectionBackground",
       "selectionForeground": "selectionForeground",
-      "selectionInactiveBackground": "selectionBackground",
+      "selectionInactiveBackground": "#2c313a",
       "inactiveBackground": "backgroundColor",
       "disabledBackground": "backgroundColor",
       "acceleratorForeground": "#E6E6E6",
@@ -121,8 +121,8 @@
     },
     "EditorTabs": {
       "background": "panelColor",
-      "underlinedBorderColor": "borderColor",
-      "underlinedTabBackground": "backgroundColor",
+      "underlinedBorderColor": "focusedBorderColor",
+      "underlinedTabBackground": "focusedBorderColor",
       "underlinedTabForeground": "#bbbbbb",
       "underlineColor": "accentColor",
       "inactiveUnderlinedTabBorderColor": "borderColor",
@@ -257,7 +257,7 @@
     },
     "VersionControl": {
       "Log.Commit": {
-        "currentBranchBackground": "panelColor",
+        "currentBranchBackground": "#282c35",
         "hoveredBackground": "#2c313c"
       }
     },
@@ -266,7 +266,7 @@
       "SearchField.background": "backgroundColor",
       "separatorColor": "panelColor"
     },
-    "AlertDialog.background": "backgroundColor",
+    "AlertDialog.background": "panelColor",
     "WelcomeScreen": {
       "borderColor": "borderColor",
       "separatorColor": "#2c313a",
@@ -279,7 +279,7 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default": "panelColor",
+      "Checkbox.Background.Default": "#252932",
       "Checkbox.Border.Default": "#414855",
       "Checkbox.Foreground.Selected": "#bbbbbb",
       "Checkbox.Focus.Wide": "#568AF2",
