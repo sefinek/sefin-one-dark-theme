@@ -10,6 +10,11 @@ The theme is actively maintained and continuously improved. See [CHANGELOG.md](C
 
 ![Code example](https://github.com/user-attachments/assets/0928bbf2-3540-4b77-a2ee-8ad85cde3e55)
 
+## Why this fork was created
+The original author publicly described his approach as liberal.
+Despite that, comments linking to this fork in a [related issue](https://github.com/one-dark/jetbrains-one-dark-theme/issues/397) were removed.
+I recommend using this fork if you want a version developed in a more open way.
+
 ## Installation
 1. Press `CTRL + ALT + S` (settings). Go to `Plugins`. Search for `Sefin One Dark Theme` and install it.
 2. Go to `Settings > Appearance & Behavior > Appearance` and select one of the new themes from the list.
