@@ -3,9 +3,6 @@ name: Create Release
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 concurrency:
   group: release
   cancel-in-progress: false
@@ -13,6 +10,8 @@ concurrency:
 jobs:
   create-release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
