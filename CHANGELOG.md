@@ -3,6 +3,7 @@
 ## [1.0.1]
 
 - Cleaned up selected project metadata and organization.
+- Reworked source theme resources around Sefin naming, packaging, and generated Vivid variants.
 
 ## [1.0.0]
 

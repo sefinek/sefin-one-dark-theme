@@ -1,8 +1,8 @@
 {
-  "name": "One Dark",
+  "name": "Sefin One Dark",
   "dark": true,
   "author": "Sefinek",
-  "editorScheme": "/one_dark.xml",
+  "editorScheme": "/sefin_one_dark.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "#202329",

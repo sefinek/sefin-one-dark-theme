@@ -11,15 +11,15 @@
             A polished One Dark-inspired theme for JetBrains IDEs, refined and maintained as an independent project.
         </p>
         <p>
-            The theme preserves the familiar One Dark feel, but uses a slightly darker, cooler palette with fewer yellow tones.
+            The theme preserves the familiar One Dark feel with careful maintenance, clean packaging, and Sefin-branded variants.
             It was designed for calm work during long coding sessions and to look especially good on OLED and QD-OLED displays.
         </p>
         <p>Available themes:</p>
         <ul>
-            <li>One Dark</li>
-            <li>One Dark Vivid</li>
-            <li>One Dark Islands</li>
-            <li>One Dark Islands Vivid</li>
+            <li>Sefin One Dark</li>
+            <li>Sefin One Dark Vivid</li>
+            <li>Sefin One Dark Islands</li>
+            <li>Sefin One Dark Vivid Islands</li>
         </ul>
         <p>
             After installation, select the theme in <em>Settings | Appearance & Behavior | Appearance</em>.<br>
@@ -30,9 +30,9 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="f92a0fa7-1a98-47cd-b5cb-78ff67e6f4f3" path="/one_dark.theme.json"/>
-        <themeProvider id="71b26d33-3d44-42f4-8166-31b17c762b32" path="/one_dark_islands.theme.json"/>
-        <themeProvider id="4b6007f7-b596-4ee2-96f9-968d3d3eb392" path="/one_dark_vivid.theme.json"/>
-        <themeProvider id="a109ba15-600a-476f-b7cc-46d832daba9d" path="/one_dark_islands_vivid.theme.json"/>
+        <themeProvider id="f92a0fa7-1a98-47cd-b5cb-78ff67e6f4f3" path="/sefin_one_dark.theme.json"/>
+        <themeProvider id="71b26d33-3d44-42f4-8166-31b17c762b32" path="/sefin_one_dark_islands.theme.json"/>
+        <themeProvider id="4b6007f7-b596-4ee2-96f9-968d3d3eb392" path="/sefin_one_dark_vivid.theme.json"/>
+        <themeProvider id="a109ba15-600a-476f-b7cc-46d832daba9d" path="/sefin_one_dark_vivid_islands.theme.json"/>
     </extensions>
 </idea-plugin>

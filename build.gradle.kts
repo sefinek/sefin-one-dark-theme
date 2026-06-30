@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.changelog)
 }
 
-group = providers.gradleProperty("pluginGroup").get()
+group = providers.gradleProperty("group").get()
 version = providers.gradleProperty("pluginVersion").get()
 
 kotlin {

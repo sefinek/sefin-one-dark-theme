@@ -1,4 +1,4 @@
-rootProject.name = "one-dark-theme"
+rootProject.name = "sefin-one-dark-theme"
 
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"

@@ -1,6 +1,5 @@
-out/
-.idea/
-.intellijPlatform/
+.idea
+.intellijPlatform
 .gradle
 build
 node_modules

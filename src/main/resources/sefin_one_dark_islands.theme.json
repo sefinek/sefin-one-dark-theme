@@ -1,16 +1,16 @@
 {
-  "name": "One Dark Vivid Islands",
+  "name": "Sefin One Dark Islands",
   "dark": true,
   "author": "Sefinek",
   "parentTheme": "Islands Dark",
-  "editorScheme": "/one_dark_vivid.xml",
+  "editorScheme": "/sefin_one_dark.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "#202329",
     "panelColor": "#262a33",
     "borderColor": "#333841",
     "infoForeground": "#7e8491",
-    "foregroundColor": "#bbbbbb",
+    "foregroundColor": "#abb2bf",
     "notificationBackground": "#3d424b",
     "selectionBackground": "#303640",
     "selectionForeground": "#d7dae0",
@@ -20,7 +20,7 @@
   "ui": {
     "*": {
       "background": "backgroundColor",
-      "foreground": "#bbbbbb",
+      "foreground": "#abb2bf",
       "borderColor": "#333841",
       "separatorColor": "#32363c",
       "hoverBackground": "hoverBackground",
@@ -73,7 +73,7 @@
       "Button": {
         "hoverBackground": "#303640",
         "selectedBackground": "#3d424b",
-        "selectedForeground": "#bbbbbb"
+        "selectedForeground": "#abb2bf"
       },
       "Header": {
         "background": "panelColor",
@@ -94,7 +94,7 @@
         "Button": {
           "hoverBackground": "#303640",
           "selectedBackground": "#3d424b",
-          "selectedForeground": "#bbbbbb"
+          "selectedForeground": "#abb2bf"
         }
       }
     },
@@ -123,7 +123,7 @@
       "background": "panelColor",
       "underlinedBorderColor": "focusedBorderColor",
       "underlinedTabBackground": "focusedBorderColor",
-      "underlinedTabForeground": "#bbbbbb",
+      "underlinedTabForeground": "#abb2bf",
       "underlineColor": "accentColor",
       "inactiveUnderlinedTabBorderColor": "borderColor",
       "inactiveUnderlinedTabBackground": "backgroundColor",
@@ -136,7 +136,7 @@
     },
     "RunWidget": {
       "background": "#3d424b",
-      "foreground": "#bbbbbb",
+      "foreground": "#abb2bf",
       "iconColor": "accentColor",
       "hoverBackground": "#4b5263",
       "pressedBackground": "#5c6370",
@@ -181,7 +181,7 @@
       "background": "#333841",
       "selectionBackground": "#4d78cc",
       "ArrowButton": {
-        "iconColor": "#bbbbbb",
+        "iconColor": "#abb2bf",
         "disabledIconColor": "#2c313a",
         "nonEditableBackground": "#333841"
       }
@@ -204,7 +204,7 @@
     },
     "Editor": {
       "background": "panelColor",
-      "foreground": "#bbbbbb",
+      "foreground": "#abb2bf",
       "shortcutForeground": "accentColor"
     },
     "Editor.Toolbar.borderColor": "#000000",
@@ -234,7 +234,7 @@
     "SearchEverywhere": {
       "Header.background": "backgroundColor",
       "Tab": {
-        "selectedForeground": "#bbbbbb",
+        "selectedForeground": "#abb2bf",
         "selectedBackground": "#303640"
       }
     },
@@ -283,7 +283,7 @@
     "ColorPalette": {
       "Checkbox.Background.Default": "#262a33",
       "Checkbox.Border.Default": "#414855",
-      "Checkbox.Foreground.Selected": "#bbbbbb",
+      "Checkbox.Foreground.Selected": "#abb2bf",
       "Checkbox.Focus.Wide": "#568AF2",
       "Checkbox.Background.Disabled": "#21252b",
       "Checkbox.Border.Disabled": "#2c313a",
