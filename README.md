@@ -11,7 +11,7 @@ The theme is actively maintained and continuously improved. See [CHANGELOG.md](C
 
 ![Code example](https://github.com/user-attachments/assets/0928bbf2-3540-4b77-a2ee-8ad85cde3e55)
 
-## Original Project
+## Original project
 The original author publicly described his approach as liberal.
 Despite that, comments linking to this project in a [related issue](https://github.com/one-dark/jetbrains-one-dark-theme/issues/397) were removed.
 I recommend using this project if you want a version developed in a more open way.
@@ -22,9 +22,10 @@ I recommend using this project if you want a version developed in a more open wa
 3. Enable `Settings > Advanced Settings > Enable Islands UI for custom themes` if you use an Islands variant.
 
 ## Recommendations
-1. Disable `Smooth Scrolling`.
-2. Enable `Compact mode`.
-3. Disable `Settings > Editor > General > Appearance > Show hard wrap and visual guides`.
+1. Use `Sefin One Dark Vivid Islands` if you like it.
+2. Disable `Smooth Scrolling`.
+3. Enable `Compact mode`.
+4. Disable `Settings > Editor > General > Appearance > Show hard wrap and visual guides`.
 
 ## Marketplace
 https://plugins.jetbrains.com/plugin/32522-sefin-one-dark-theme
