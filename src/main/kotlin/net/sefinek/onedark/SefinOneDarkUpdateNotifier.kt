@@ -153,7 +153,7 @@ class SefinOneDarkUpdateNotifier : ProjectActivity {
                     putClientProperty(JEditorPane.HONOR_DISPLAY_PROPERTIES, true)
                 },
             ).apply {
-                preferredSize = Dimension(560, 180)
+                preferredSize = Dimension(560, 260)
                 border = null
                 viewport.isOpaque = false
             }
