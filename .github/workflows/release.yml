@@ -26,9 +26,6 @@ jobs:
           java-version: 21
           cache: gradle
 
-      - name: Build plugin
-        run: ./gradlew buildPlugin
-
       - name: Prepare release notes
         id: version
         shell: bash
@@ -42,6 +39,11 @@ jobs:
           fi
 
           tag="v$version"
+
+          if git ls-remote --exit-code --tags origin "refs/tags/${tag}" >/dev/null 2>&1; then
+            echo "Tag ${tag} already exists on origin - bump pluginVersion in gradle.properties before releasing" >&2
+            exit 1
+          fi
 
           awk -v version="$version" '
             $0 == "## [" version "]" {
@@ -64,7 +66,7 @@ jobs:
             exit 1
           fi
 
-          previous_tag="$(git tag --sort=-v:refname | grep -v "^${tag}$" | head -n 1 || true)"
+          previous_tag="$(git tag --sort=-creatordate --list 'v[0-9]*.[0-9]*.[0-9]*' | grep -v "^${tag}$" | head -n 1 || true)"
           if [[ -n "$previous_tag" ]]; then
             full_changelog="https://github.com/${GITHUB_REPOSITORY}/compare/${previous_tag}...${tag}"
           else
@@ -80,6 +82,9 @@ jobs:
             echo "version=$version"
             echo "tag=$tag"
           } >> "$GITHUB_OUTPUT"
+
+      - name: Build plugin
+        run: ./gradlew buildPlugin
 
       - name: Create release
         uses: softprops/action-gh-release@v3
