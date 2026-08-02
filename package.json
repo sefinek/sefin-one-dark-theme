@@ -1,7 +1,7 @@
 {
   "name": "sefin-one-dark-theme",
   "version": "1.1.2",
-  "description": "Sefin One Dark Theme",
+  "private": true,
   "homepage": "https://github.com/sefinek/sefin-one-dark-theme",
   "bugs": {
     "url": "https://github.com/sefinek/sefin-one-dark-theme/issues"
