@@ -36,4 +36,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Thanks
 If you like this improved version of the theme, consider giving the [repository a star](https://github.com/sefinek/sefin-one-dark-theme).
 For any questions or issues, please create a new [Issue](https://github.com/sefinek/sefin-one-dark-theme/issues/new).
-You can also visit my [Discord server](https://discord.gg/qx5rnTTv6h).
+You can also visit my [Discord server](https://discord.com/invite/qx5rnTTv6h).

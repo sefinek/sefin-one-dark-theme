@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.3]
+
+- Updated dependencies to their latest versions.
+- Other project improvements.
+
+
 ## [1.1.2]
 
 - Removed a duplicate color entry that caused incorrect text rendering in template languages.
@@ -32,6 +38,7 @@
 - Refreshed `pluginIcon.svg` with a cleaner, more modern version of the existing atom icon.
 - Updated dependencies and minor project fixes.
 
+[1.1.3]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.0.0...v1.1.0
