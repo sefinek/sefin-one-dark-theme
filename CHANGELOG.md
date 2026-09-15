@@ -1,10 +1,14 @@
 # Changelog
 
+## [1.1.4]
+
+- Updated Gradle, Kotlin, IntelliJ Platform Gradle Plugin, and JavaScript tooling to their latest stable versions.
+- Updated the release workflow to use the latest stable Java setup action.
+
 ## [1.1.3]
 
 - Updated dependencies to their latest versions.
 - Other project improvements.
-
 
 ## [1.1.2]
 
@@ -38,6 +42,7 @@
 - Refreshed `pluginIcon.svg` with a cleaner, more modern version of the existing atom icon.
 - Updated dependencies and minor project fixes.
 
+[1.1.4]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.0...v1.1.1
