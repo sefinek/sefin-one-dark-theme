@@ -72,12 +72,6 @@ changelog {
 }
 
 tasks {
-    withType<Jar> {
-        manifest {
-            attributes["Repository-Url"] = providers.gradleProperty("pluginRepositoryUrl").get()
-        }
-    }
-
     processResources {
         from("CHANGELOG.md")
     }

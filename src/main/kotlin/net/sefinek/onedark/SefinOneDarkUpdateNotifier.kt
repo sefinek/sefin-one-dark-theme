@@ -1,29 +1,31 @@
 package net.sefinek.onedark
 
 import com.intellij.ide.BrowserUtil
+import com.intellij.ide.plugins.PluginManagerCore
 import com.intellij.ide.util.PropertiesComponent
 import com.intellij.notification.NotificationAction
 import com.intellij.notification.NotificationGroupManager
 import com.intellij.notification.NotificationType
+import com.intellij.openapi.extensions.PluginId
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.ProjectActivity
 import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.util.ui.JBUI
 import com.intellij.util.ui.UIUtil
 import java.awt.Dimension
-import java.util.jar.Manifest
 import javax.swing.Action
 import javax.swing.JComponent
 import javax.swing.JEditorPane
 import javax.swing.JScrollPane
 
+private const val PLUGIN_ID = "net.sefinek.one-dark-theme"
+private const val REPOSITORY_URL = "https://github.com/sefinek/sefin-one-dark-theme"
 private const val VERSION_PROPERTY = "net.sefinek.one-dark-theme.lastShownVersion"
 private const val UPDATES_GROUP_ID = "Sefin One Dark Theme Updates"
 
 class SefinOneDarkUpdateNotifier : ProjectActivity {
     override suspend fun execute(project: Project) {
-        val pluginInfo = getCurrentPluginInfo() ?: return
-        val currentVersion = pluginInfo.version
+        val currentVersion = PluginManagerCore.getPlugin(PluginId.getId(PLUGIN_ID))?.version ?: return
         val properties = PropertiesComponent.getInstance()
         val previousVersion = properties.getValue(VERSION_PROPERTY)
 
@@ -32,34 +34,22 @@ class SefinOneDarkUpdateNotifier : ProjectActivity {
         }
 
         properties.setValue(VERSION_PROPERTY, currentVersion)
-        val changelogItems = getChangelogItemsForVersion(currentVersion)
-        val repositoryUrl = pluginInfo.repositoryUrl
-        val changelogUrl = "$repositoryUrl/blob/main/CHANGELOG.md"
+        val isFirstInstall = previousVersion == null
 
-        val title =
-            if (previousVersion == null) {
-                "Sefin One Dark is ready"
-            } else {
-                "Sefin One Dark has been updated"
-            }
-
+        val title = if (isFirstInstall) "Sefin One Dark is ready" else "Sefin One Dark updated to $currentVersion"
         val content =
-            if (previousVersion == null) {
-                "Thank you for using this theme! Happy coding!"
+            if (isFirstInstall) {
+                "Thank you for installing the theme. Select it in Settings > Appearance & Behavior > Appearance."
             } else {
-                "The theme has been updated from $previousVersion to $currentVersion. Happy coding!"
+                "The theme has been updated from $previousVersion to $currentVersion."
             }
+
+        val changelogItems = if (isFirstInstall) emptyList() else getChangelogItemsForVersion(currentVersion)
 
         NotificationGroupManager.getInstance()
             .getNotificationGroup(UPDATES_GROUP_ID)
             .createNotification(title, content, NotificationType.INFORMATION)
             .apply {
-                addAction(
-                    NotificationAction.createSimple("Open repository") {
-                        BrowserUtil.browse(repositoryUrl)
-                    },
-                )
-
                 if (changelogItems.isNotEmpty()) {
                     addAction(
                         NotificationAction.createSimple("Show changelog") {
@@ -68,13 +58,11 @@ class SefinOneDarkUpdateNotifier : ProjectActivity {
                     )
                 }
 
-                if (previousVersion == null) {
-                    addAction(
-                        NotificationAction.createSimple("Open changelog") {
-                            BrowserUtil.browse(changelogUrl)
-                        },
-                    )
-                }
+                addAction(
+                    NotificationAction.createSimple("Open repository") {
+                        BrowserUtil.browse(REPOSITORY_URL)
+                    },
+                )
             }
             .notify(project)
     }
@@ -102,22 +90,6 @@ class SefinOneDarkUpdateNotifier : ProjectActivity {
             .filter { it.startsWith("- ") }
             .map { it.removePrefix("- ").trim() }
             .toList()
-    }
-
-    private fun getCurrentPluginInfo(): PluginInfo? {
-        val manifests = javaClass.classLoader.getResources("META-INF/MANIFEST.MF")
-
-        for (manifestUrl in manifests) {
-            val attributes = manifestUrl.openStream().use { Manifest(it) }.mainAttributes
-            if (attributes.getValue("Build-Plugin") == "IntelliJ Platform Gradle Plugin") {
-                return PluginInfo(
-                    version = attributes.getValue("Version") ?: return null,
-                    repositoryUrl = attributes.getValue("Repository-Url") ?: return null,
-                )
-            }
-        }
-
-        return null
     }
 
     private class ChangelogDialog(project: Project, changelogItems: List<String>) : DialogWrapper(project) {
@@ -152,11 +124,6 @@ class SefinOneDarkUpdateNotifier : ProjectActivity {
         override fun createActions(): Array<Action> = arrayOf(okAction)
     }
 }
-
-private data class PluginInfo(
-    val version: String,
-    val repositoryUrl: String,
-)
 
 private fun String.escapeHtml(): String =
     replace("&", "&amp;")

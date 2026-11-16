@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.5]
+
+- Fixed the update notification, which was never shown because the plugin version could not be read from the jar manifest.
+- Updated Gradle to 9.9.1, IntelliJ Platform Gradle Plugin to 2.20.1, and the target platform to IntelliJ IDEA 2026.3.
+
 ## [1.1.4]
 
 - Updated Gradle, Kotlin, IntelliJ Platform Gradle Plugin, and JavaScript tooling to their latest stable versions.
@@ -42,6 +47,7 @@
 - Refreshed `pluginIcon.svg` with a cleaner, more modern version of the existing atom icon.
 - Updated dependencies and minor project fixes.
 
+[1.1.5]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.4...v1.1.5
 [1.1.4]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/sefinek/sefin-one-dark-theme/compare/v1.1.1...v1.1.2
